@@ -6,7 +6,7 @@ import BuildControls from '../../components/Burger/BuildControls/BuidControls'
 import Modal from '../../components/UI/Modal/Modal';
 import OrderSummary from '../../components/Burger/OrderSammary/OrderSummary';
 import Spinner from '../../components/UI/Spinner/Spinner';
-import withErrorHendler from '../../hoc/withErrorHendler/withErrorHendler';
+import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 import axios from '../../axios-orders';
 
 const INGREDIENT_PRICES = {
@@ -152,4 +152,4 @@ class BurgerBuilder extends Component {
     }
 }
 
-export default withErrorHendler(BurgerBuilder, axios);
+export default withErrorHandler(BurgerBuilder, axios);
