@@ -81,7 +81,7 @@ class BurgerBuilder extends Component {
             <Aux>
                 <Modal 
                     show={this.state.purchasing} 
-                    modalClosed={this.purchaseCanselHandler}>
+                    ModalClosed={this.purchaseCanselHandler}>
                     {orderSummary}
                 </Modal>
                 {burger}
