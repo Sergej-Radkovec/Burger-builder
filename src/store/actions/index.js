@@ -1,7 +1,7 @@
 export {
     addIngredient,
     removeIngredient,
-    initIngredients
+    initIngredients,
 } from './burgerBuilder';
 export {
     purchaseBurger,
@@ -11,5 +11,6 @@ export {
 
 export {
     auth,
-    logout
+    logout,
+    setAuthRedirectPath,
 } from './auth';
