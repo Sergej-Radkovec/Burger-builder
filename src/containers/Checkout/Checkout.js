@@ -23,12 +23,12 @@ class Checkout extends Component {
                 <div>
                     {purchasedRedirect}
                     <CheckoutSummary
-                    ingredients={this.props.ings}
-                    checkoutCancelled={this.checkoutCancelledHandler}
-                    checkoutContinued={this.checkoutContinuedHandler} />
-                <Route
-                    path={this.props.match.path + '/contact-data'}
-                    component={ContactData}/>
+                        ingredients={this.props.ings}
+                        checkoutCancelled={this.checkoutCancelledHandler}
+                        checkoutContinued={this.checkoutContinuedHandler} />
+                    <Route
+                        path={this.props.match.path + '/contact-data'}
+                        component={ContactData}/>
                 </div>
             )
         }
